@@ -7,10 +7,19 @@
 3. 签到并发送通知
 # 使用方式
 1. 打开爱奇艺官网 获取你的authcookie  获取方式 [文字教程](https://www.jianshu.com/p/b3759d78392b) ) authcookie有效期一般三个月
-2. 右上角fork本仓库
-3. 点击Settings -> Secrets -> 点击绿色按钮 (如无绿色按钮说明已激活。直接到第四步。)
-4. 新增 new secret  参数名IQIYI_COOKIE 值是你刚才获取的authcookie
-5. 任意修改仓库内任意文件或点击右上角 Star 即可触发。
+  爱奇艺authcookie基本上用的是爱奇艺cookie中 P00001的值
+  1.登入爱奇艺
+  2.按F12打开控制台
+  3.按F5刷新页面
+  4.点击Network
+  5.点击第一个缓存文件
+  6.右侧找到 COOKIES
+  7.复制出 P00001 后面的内容（如图：a1O0Cm2dypdOv7hTm3H9khhuyM2r42bzidgJue02voVnm1lim3fsj8bFdrO2hm1F1...）
+  9.保存起来，这样我们要用
+3. 右上角fork本仓库
+4. 点击Settings -> Secrets -> 点击绿色按钮 (如无绿色按钮说明已激活。直接到第四步。)
+5. 新增 new secret  参数名IQIYI_COOKIE 值是你刚才获取的authcookie
+6. 任意修改仓库内任意文件或点击右上角 Star 即可触发。
 
 **本项目需要设置的 Secrets:**
 
