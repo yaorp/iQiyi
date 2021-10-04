@@ -1,10 +1,4 @@
 
-
-# 爱奇艺自动签到
-功能：
-1. 获取签到最新代码
-2. 替换参数值
-3. 签到并发送通知
 # 使用方式
 1. 打开爱奇艺官网 获取你的authcookie  获取方式 [文字教程](https://www.jianshu.com/p/b3759d78392b) ) authcookie有效期一般三个月
   爱奇艺authcookie基本上用的是爱奇艺cookie中 P00001的值
@@ -14,8 +8,9 @@
   4.点击Network
   5.点击第一个缓存文件
   6.右侧找到 COOKIES
-  7.复制出 P00001 后面的内容（如图：a1O0Cm2dypdOv7hTm3H9khhuyM2r42bzidgJue02voVnm1lim3fsj8bFdrO2hm1F1...）
+  7.复制出 P00001 后面的内容（如：a1O0Cm2dypdOv7hTm3H9khhuyM2r42bzidgJue02voVnm1lim3fsj8bFdrO2hm1F1...）
   9.保存起来，这样我们要用
+
 3. 右上角fork本仓库
 4. 点击Settings -> Secrets -> 点击绿色按钮 (如无绿色按钮说明已激活。直接到第四步。)
 5. 新增 new secret  参数名IQIYI_COOKIE 值是你刚才获取的authcookie
